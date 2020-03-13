@@ -1,0 +1,39 @@
+#main-doc{
+  height:100%;
+  width:100%;
+  background-color:#F3E5F5;
+}
+#navbar{
+  position:fixed;
+  width:300px;
+  height:100%;
+  background-color:grey;
+  text-align:center;
+ 
+  
+}
+
+section{
+  width:75%;
+ margin-left: 320px;
+}
+header{
+  font-weight:bold;
+  font-size:25px;
+}
+p{
+  font-size:18px;
+}
+
+a{
+  color:black;
+  font-size:20px;
+}
+code{
+  font-size:15px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
